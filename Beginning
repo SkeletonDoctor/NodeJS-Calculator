@@ -1,0 +1,25 @@
+var myName = 'Bob';
+2
+var myAge = 23;
+3
+var friendsAge = 22
+4
+​
+5
+​
+6
+console.log('Your name is: ' + myName)
+7
+console.log('You are ' + myAge + ' years old')
+8
+console.log('Your friend is ' + friendsAge + ' years old')
+9
+if (myAge > friendsAge) {
+10
+console.log('You are older!')
+11
+} else {
+12
+console.log('Your friend is older')
+13
+}
