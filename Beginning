@@ -1,25 +1,32 @@
-var myName = 'Bob';
-2
-var myAge = 23;
-3
-var friendsAge = 22
-4
-​
-5
-​
-6
-console.log('Your name is: ' + myName)
-7
-console.log('You are ' + myAge + ' years old')
-8
-console.log('Your friend is ' + friendsAge + ' years old')
-9
-if (myAge > friendsAge) {
-10
-console.log('You are older!')
-11
-} else {
-12
-console.log('Your friend is older')
-13
+//Pick a number for "num1" and "Num2"
+var num1 = 9;
+var num2 = 3;
+
+//Change "false" to "true" to complete the code,   then change it back
+var mult = false; //Multiply
+var add = false; //add
+var sub = false; //subtract
+var div = false; //divide
+
+//The actual code that does the job
+if(div === true, num1 === 0 && num2 === 0) {
+  console.log('Seriously 0 divide 0? ');
+}
+if(div === true, num1 === 1 && num2 === 0) {
+  console.log('You can not divide by ZERO');
+}
+if(div === true, num1 === 0 && num2 === 1) {
+  console.log('Seriusly? it is ');
+}
+if(mult === true) {
+  console.log(num1 * num2);
+}
+if(add === true) {
+  console.log(num1 + num2);
+}
+if(sub === true) {
+  console.log(num1 - num2);
+}
+if(div === true) {
+  console.log(num1 / num2);
 }
