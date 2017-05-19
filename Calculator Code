@@ -9,7 +9,7 @@ var sub = false; //subtract
 var div = false; //divide
 
 //The actual code that does the job
-if(div === true || mult === true && num1 === 1 && num2 === 1) {
+if(div === true || mult === true, num1 === 1 && num2 === 1) {
   console.log('Seriously Its');
 } 
 
