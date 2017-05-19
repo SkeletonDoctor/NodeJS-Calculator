@@ -1,8 +1,10 @@
-//Pick a number for "num1" and "Num2"
-var num1 = 4;
-var num2 = 5;
 
-//Change "false" to "true" to complete the code,          then change it back if you want something different
+
+//Pick a number for "num1" and "Num2"
+var num1 = 5;
+var num2 = 3;
+
+//Change "false" to "true" to complete the code,       CHOOSE ONLY ONE!!!      then change it back if you want something different
 var mult = false; //Multiply
 var add = false; //add
 var sub = false; //subtract
@@ -26,7 +28,7 @@ if(mult === true) {
   console.log('Mult= ' + num1 * num2);           //Multiplication
 }
 if(add === true) {
-  console.log('Add= ' + num1 + num2);              //Addition
+  console.log('Add= ', num1 + num2);              //Addition
 }
 if(div === true) {
   console.log('Div= ' + num1 / num2);             //Division
