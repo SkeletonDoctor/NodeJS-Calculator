@@ -1,14 +1,18 @@
 //Pick a number for "num1" and "Num2"
-var num1 = 9;
-var num2 = 3;
+var num1 = 1;
+var num2 = 1;
 
-//Change "false" to "true" to complete the code,   then change it back
+//Change "false" to "true" to complete the code,       CHOOSE ONLY ONE!!!      then change it back if you want something different
 var mult = false; //Multiply
 var add = false; //add
 var sub = false; //subtract
 var div = false; //divide
 
 //The actual code that does the job
+if(div === true || mult === true && num1 === 1 && num2 === 1) {
+  console.log('Seriously Its');
+} 
+
 if(div === true, num1 === 0 && num2 === 0) {
   console.log('Seriously 0 divide 0? ');
 }
